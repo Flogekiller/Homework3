@@ -104,7 +104,7 @@ public class Main
         System.out.print("|");
 
     }
-    private void printPlus(int maxWidth)
+    private void printBorder(int maxWidth)
     {
         for (int i = 0; i < maxWidth; i++) {
             System.out.print("-");
