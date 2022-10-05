@@ -37,13 +37,13 @@ public class Main
                 main.printColumn(valueWidth, String.valueOf(w.get(i).value));
 
                 System.out.println();
-                main.printPlus(nameWith);
-                main.printPlus(combatTypeWidth);
-                main.printPlus(damageTypeWidht);
-                main.printPlus(damageWidth);
-                main.printPlus(speedWidth);
-                main.printPlus(strengthWidth);
-                main.printPlus(valueWidth);
+                main.printBorder(nameWith);
+                main.printBorder(combatTypeWidth);
+                main.printBorder(damageTypeWidht);
+                main.printBorder(damageWidth);
+                main.printBorder(speedWidth);
+                main.printBorder(strengthWidth);
+                main.printBorder(valueWidth);
 
                 System.out.println();
             }
